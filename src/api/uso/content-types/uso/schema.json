@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usos",
+  "info": {
+    "singularName": "uso",
+    "pluralName": "usos",
+    "displayName": "Uso",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": true
+    },
+    "productos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "usos"
+    }
+  }
+}

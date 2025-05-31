@@ -11,6 +11,7 @@ module.exports = (config) => {
       allowedHosts: [
         ...(config.server?.allowedHosts || []),
         'coli.internal',
+        'jad-marmoleria.colidevs.com'
       ],
     },
   });
