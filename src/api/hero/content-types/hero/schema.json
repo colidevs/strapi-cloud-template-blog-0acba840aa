@@ -22,13 +22,13 @@
       "required": true,
       "allowedTypes": ["images"]
     },    
-    "imagen1": {
+    "imagenCentro": {
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": ["images"]
     },
-    "linkImagen1": {
+    "linkImagenCentro": {
       "type": "component",
       "repeatable": false,
       "required": true,
@@ -39,13 +39,13 @@
       },
       "component": "shared.link"
     },
-    "imagen2": {
+    "imagenIzquierda": {
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": ["images"]
     },
-    "linkImagen2": {
+    "linkImagenIzquierda": {
       "type": "component",
       "repeatable": false,
       "required": true,
@@ -56,13 +56,13 @@
       },
       "component": "shared.link"
     },
-    "imagen3": {
+    "imagenDerecha": {
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": ["images"]
     },
-    "linkImagen3": {
+    "linkImagenDerecha": {
       "type": "component",
       "repeatable": false,
       "required": true,
